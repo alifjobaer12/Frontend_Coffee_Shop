@@ -1,35 +1,41 @@
 import Heading from "../../common/Heading";
 import ProductCard from "./productComponent/ProductCard";
+import product1 from "../../../assets/product1.jpg";
+import product2 from "../../../assets/product2.jpg";
+import product3 from "../../../assets/product3.jpg";
+import product4 from "../../../assets/product4.jpg";
+import product5 from "../../../assets/product5.jpg";
+import product6 from "../../../assets/product6.jpg";
 
 const ProductSection = () => {
 	const productData = [
 		{
-			img: "/src/assets/product1.jpg",
+			img: product1,
 			title: "Capaccino",
 			price: "$3.99",
 		},
 		{
-			img: "/src/assets/product2.jpg",
+			img: product2,
 			title: "Chai Latte",
 			price: "$1.99",
 		},
 		{
-			img: "/src/assets/product3.jpg",
+			img: product3,
 			title: "Macchiato",
 			price: "$4.99",
 		},
 		{
-			img: "/src/assets/product4.jpg",
+			img: product4,
 			title: "Americano",
 			price: "$2.99",
 		},
 		{
-			img: "/src/assets/product5.jpg",
+			img: product5,
 			title: "Espresso",
 			price: "$5.99",
 		},
 		{
-			img: "/src/assets/product6.jpg",
+			img: product6,
 			title: "Capaccino",
 			price: "$3.99",
 		},

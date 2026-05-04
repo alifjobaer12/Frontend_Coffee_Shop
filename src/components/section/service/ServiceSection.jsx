@@ -1,5 +1,9 @@
 import Heading from "../../common/Heading";
 import ServiceCard from "./serviceComponent/ServiceCard";
+import service1 from "../../../assets/service1.png";
+import service2 from "../../../assets/service2.png";
+import service3 from "../../../assets/service3.png";
+import coffeeBeans from "../../../assets/coffee_beans.png";
 
 const ServiceSection = () => {
 	const headings = {
@@ -9,17 +13,17 @@ const ServiceSection = () => {
 
 	const serviceData = [
 		{
-			img: "/src/assets/service1.png",
+			img: service1,
 			title: "Coffee Types",
 			desc: "We offer a tantalizing variety of coffee types to cater to your unique preferences.",
 		},
 		{
-			img: "/src/assets/service2.png",
+			img: service2,
 			title: "Different Beans",
 			desc: "We take pride in sourcing and roasting the finest quality beans from around the world.",
 		},
 		{
-			img: "/src/assets/service3.png",
+			img: service3,
 			title: "Cold Coffee",
 			desc: "We offer a variety of cold coffee options to satisfy your cravings.",
 		},
@@ -42,10 +46,7 @@ const ServiceSection = () => {
 			</div>
 
 			<div className=" w-full h-full overflow-hidden">
-				<img
-					src="/src/assets/coffee_beans.png"
-					alt="coffee_beans.png"
-				/>
+				<img src={coffeeBeans} alt="Coffee beans separator" />
 			</div>
 		</>
 	);

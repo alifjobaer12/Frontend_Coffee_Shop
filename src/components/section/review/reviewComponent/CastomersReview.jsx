@@ -2,25 +2,28 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import LeftReview from "./LeftReview";
 import RightReview from "./RightReview";
+import customerReview1 from "../../../../assets/customerReview1.jpg";
+import customerReview2 from "../../../../assets/customerReview2.jpg";
+import customerReview3 from "../../../../assets/customerReview3.jpg";
 
 const CastomersReview = () => {
 	const reviews = [
 		{
 			id: 1,
 			name: "Samantha R",
-			image: "/src/assets/customerReview1.jpg",
+			image: customerReview1,
 			text: "I've tried coffee from various places, but Coffee Cup stands out from the rest. The quality and consistency of their blends are unmatched. Each cup is a flavor journey that takes my taste buds to new heights. Their commitment to sourcing the finest beans and their meticulous roasting process truly shines through in every sip.",
 		},
 		{
 			id: 2,
 			name: "John D",
-			image: "/src/assets/customerReview2.jpg",
+			image: customerReview2,
 			text: "Best coffee I've had in years! The aroma, the taste, everything is perfect. The baristas are knowledgeable and friendly. I come here every morning and never regret it. Highly recommended!",
 		},
 		{
 			id: 3,
 			name: "Emma L",
-			image: "/src/assets/customerReview3.jpg",
+			image: customerReview3,
 			text: "The ambiance is wonderful, and the coffee is exceptional. I love how they treat coffee as an art form. Every visit is a delightful experience. This is my favorite coffee shop!",
 		},
 	];
