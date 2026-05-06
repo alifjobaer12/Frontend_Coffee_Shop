@@ -1,8 +1,8 @@
+import FooterSection from "./components/footer/FooterSection";
 import Navbar from "./components/navbar/Navbar";
 import HeroSection from "./components/section/hero/HeroSection";
 import ProductSection from "./components/section/product/ProductSection";
 import ReviewSection from "./components/section/review/ReviewSection";
-import FooterSection from "./components/section/footer/FooterSection";
 import ServiceSection from "./components/section/service/ServiceSection";
 const App = () => {
 	return (

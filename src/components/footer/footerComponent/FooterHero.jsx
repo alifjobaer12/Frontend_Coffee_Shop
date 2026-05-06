@@ -1,6 +1,6 @@
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
-import Logo from "../../../common/Logo";
-import footerBg from "../../../../assets/footer.jpg";
+import footerBg from "../../../assets/footer.jpg";
+import Logo from "../../common/Logo";
 
 const FooterHero = () => {
 	const socialIcons = [FaFacebookF, FaTwitter, FaYoutube, FaInstagram];
