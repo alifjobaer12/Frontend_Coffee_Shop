@@ -42,13 +42,13 @@ const ProductSection = () => {
 	];
 
 	return (
-		<div className="flex flex-col items-center gap-10 px-20  pb-20">
+		<div className="flex flex-col items-center gap-6 sm:gap-10 px-4 sm:px-8 lg:px-20 pb-8 sm:pb-16 lg:pb-20 w-full">
 			<Heading
 				title="Enjoy a new brand coffee style"
 				desc="Explore all flavours of coffee with us. There is always a new cup worth experiencing"
 			/>
 
-			<div className="grid grid-cols-3 gap-15 items-center justify-center">
+			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-10 lg:gap-15 items-center justify-center w-full">
 				{productData.map((product, index) => (
 					<ProductCard
 						key={index}

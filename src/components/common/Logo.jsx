@@ -1,4 +1,4 @@
-import logo from "../../../assets/logo.jpg";
+import logo from "../../assets/logo.jpg";
 
 const Logo = () => {
 	return (
@@ -8,7 +8,7 @@ const Logo = () => {
 				src={logo}
 				alt="The Coffee Cup logo"
 			/>
-			<h1>The Coffee Cup</h1>
+			<h1 className="font-['Pacifico']">The Coffee Cup</h1>
 		</div>
 	);
 };

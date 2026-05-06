@@ -1,0 +1,80 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+	theme: {
+		extend: {
+			spacing: {
+				// Custom spacing for the project
+				10: "10px",
+				15: "15px",
+				20: "20px",
+				22: "22px",
+				25: "25px",
+				30: "30px",
+				35: "35px",
+				38: "38px",
+				40: "40px",
+				50: "50px",
+				60: "60px",
+				70: "70px",
+				80: "80px",
+				100: "100px",
+				120: "120px",
+				160: "160px",
+			},
+			width: {
+				18: "18px",
+				25: "25px",
+				70: "70px",
+				80: "80px",
+				108: "108px",
+				160: "160px",
+			},
+			height: {
+				18: "18px",
+				35: "35px",
+				70: "70px",
+				80: "80px",
+				96: "96px",
+				108: "108px",
+			},
+			minHeight: {
+				108: "108px",
+				screen: "100vh",
+			},
+			fontSize: {
+				"2xl": "20px",
+				"3xl": "24px",
+				"4xl": "32px",
+				"5xl": "40px",
+				"6xl": "48px",
+				"7xl": "56px",
+				"8xl": "96px",
+			},
+			fontFamily: {
+				Arial: ["Arial", "sans-serif"],
+				Arile: ["Poppins", "sans-serif"],
+			},
+			screens: {
+				xs: "320px",
+				sm: "640px",
+				md: "768px",
+				lg: "1024px",
+				xl: "1280px",
+				"2xl": "1536px",
+			},
+			colors: {
+				coffee: {
+					primary: "#6B3E26",
+					dark: "#432010",
+					light: "#C89B6D",
+					accent: "#c89b6d",
+					tan: "#e2c8ae7d",
+					bg: "#F5F2EF",
+					footer: "#2b1208",
+					"footer-dark": "#120805",
+				},
+			},
+		},
+	},
+	plugins: [],
+};

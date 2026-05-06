@@ -41,24 +41,24 @@ const CastomersReview = () => {
 	const currentReview = reviews[currentIndex];
 
 	return (
-		<div className="flex flex-col">
-			<div className="flex px-40">
+		<div className="flex flex-col w-full px-4 sm:px-8 lg:px-40">
+			<div className="flex gap-6 sm:gap-8 lg:gap-10 items-stretch lg:min-h-96">
 				<LeftReview review={currentReview} />
 				<RightReview customer={currentReview} />
 			</div>
 			{/* Navigation Buttons */}
-			<div className="flex justify-start pl-20 mt-8 gap-4">
+			<div className="flex justify-start sm:justify-center lg:justify-start pl-0 sm:pl-0 lg:pl-20 mt-6 sm:mt-8 gap-3 sm:gap-4">
 				<button
 					onClick={prevReview}
-					className="border-2 border-[#c4a574] p-3 rounded-lg hover:bg-[#c4a574] hover:text-white transition"
+					className="border-2 border-[#c4a574] p-2 sm:p-3 rounded-lg hover:bg-[#c4a574] hover:text-white transition"
 				>
-					<ChevronLeft size={20} />
+					<ChevronLeft size={18} className="sm:w-5 sm:h-5" />
 				</button>
 				<button
 					onClick={nextReview}
-					className="border-2 border-[#c4a574] p-3 rounded-lg hover:bg-[#c4a574] hover:text-white transition"
+					className="border-2 border-[#c4a574] p-2 sm:p-3 rounded-lg hover:bg-[#c4a574] hover:text-white transition"
 				>
-					<ChevronRight size={20} />
+					<ChevronRight size={18} className="sm:w-5 sm:h-5" />
 				</button>
 			</div>
 		</div>

@@ -31,9 +31,9 @@ const ServiceSection = () => {
 
 	return (
 		<>
-			<div className=" pt-38 px-20 flex flex-col items-center">
+			<div className="pt-8 sm:pt-16 lg:pt-38 px-4 sm:px-8 lg:px-20 flex flex-col items-center">
 				<Heading title={headings.title} desc={headings.desc} />
-				<div className="flex gap-22 py-15">
+				<div className="flex flex-col sm:flex-row gap-6 sm:gap-12 lg:gap-22 py-8 sm:py-12 lg:py-15 w-full justify-center">
 					{serviceData.map((service, index) => (
 						<ServiceCard
 							key={index}
@@ -45,8 +45,12 @@ const ServiceSection = () => {
 				</div>
 			</div>
 
-			<div className=" w-full h-full overflow-hidden">
-				<img src={coffeeBeans} alt="Coffee beans separator" />
+			<div className="w-full h-auto overflow-hidden">
+				<img
+					src={coffeeBeans}
+					alt="Coffee beans separator"
+					className="w-full h-auto"
+				/>
 			</div>
 		</>
 	);

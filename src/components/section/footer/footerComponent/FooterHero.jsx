@@ -1,5 +1,5 @@
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
-import Logo from "../../../navbar/navComponent/Logo";
+import Logo from "../../../common/Logo";
 import footerBg from "../../../../assets/footer.jpg";
 
 const FooterHero = () => {
