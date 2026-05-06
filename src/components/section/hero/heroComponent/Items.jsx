@@ -3,7 +3,7 @@ import { Plus } from "lucide-react";
 const Items = () => {
 	return (
 		<div className="flex flex-col sm:flex-row gap-6 sm:gap-10 pt-6 sm:pt-10 w-full">
-			<div className="flex flex-col items-center justify-center flex-1">
+			<div className="flex flex-col items-start justify-center flex-1 text-left">
 				<h1 className="flex text-2xl sm:text-3xl lg:text-4xl font-[Playfair] font-semibold items-center text-[#6B3E26]">
 					1K{" "}
 					<span>
@@ -14,7 +14,7 @@ const Items = () => {
 					Reviewes
 				</p>
 			</div>
-			<div className="flex flex-col items-center flex-1">
+			<div className="flex flex-col items-start flex-1 text-left">
 				<h1 className="flex text-2xl sm:text-3xl lg:text-4xl font-[Playfair] font-semibold items-center text-[#6B3E26]">
 					3K{" "}
 					<span>
@@ -25,7 +25,7 @@ const Items = () => {
 					Best Sell
 				</p>
 			</div>
-			<div className="flex flex-col items-center flex-1">
+			<div className="flex flex-col items-start flex-1 text-left">
 				<h1 className="flex text-2xl sm:text-3xl lg:text-4xl font-[Playfair] font-semibold items-center text-[#6B3E26]">
 					150K{" "}
 					<span>
