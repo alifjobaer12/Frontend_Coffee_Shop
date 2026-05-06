@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import NavLink from "./navComponent/NavLink";
 import NavButton from "./navComponent/NavButton";
 import MobileMenu from "./navComponent/MobileMenu";
@@ -24,12 +24,18 @@ const Navbar = () => {
 				</div>
 
 				{/* Mobile Menu Button */}
-				<button
-					onClick={() => setMobileMenuOpen(true)}
-					className="md:hidden p-2 hover:bg-gray-100 rounded"
+				{ !mobileMenuOpen ? <button
+					onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+					className="md:hidden p-2 rounded"
 				>
 					<Menu size={24} />
-				</button>
+				</button> :
+				<button
+					onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+					className="md:hidden p-2 rounded"
+				>
+					<X size={24} />
+				</button>}
 			</nav>
 
 			{/* Mobile Menu */}
